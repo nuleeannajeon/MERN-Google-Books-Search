@@ -1,0 +1,19 @@
+.media-body{
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 15px;
+}
+button {
+    float: right;
+    border-radius: 2rem;
+    margin-left: 5px;
+    background: rgb(168, 76, 130);
+    color: white;
+    font-weight: bold;
+}
+img {
+    max-width: 100px;
+    height: auto;
+    float: left;
+}

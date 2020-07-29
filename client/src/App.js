@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import Search from './pages/Search';
+import Saved from './pages/Saved';
 import Nav from './components/Nav';
 import Jumbotron from './components/Jumbotron';
 
@@ -10,6 +10,7 @@ function App() {
       <Nav />
       <Jumbotron />
       <Search />
+      <Saved />
     </div>
   );
 }

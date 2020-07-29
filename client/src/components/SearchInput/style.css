@@ -1,0 +1,8 @@
+.form-control {
+    border: 1px solid rgb(70, 20, 45);
+}
+.btn {
+    border: 1px solid rgb(70, 20, 45);
+    color: rgb(70, 20, 45);
+    background: rgb(243, 202, 209);
+}

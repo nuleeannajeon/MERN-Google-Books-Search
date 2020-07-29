@@ -1,0 +1,17 @@
+.navbar {
+    background-color: rgb(168, 76, 130);
+}
+.navbar-brand {
+    margin-right: 0;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    padding-left: 2%;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: rgb(250, 195, 205);
+}
+.nav-link {
+    font-size: 16px;
+    color: white;
+}

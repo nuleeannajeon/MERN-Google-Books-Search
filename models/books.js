@@ -1,15 +1,26 @@
-// 2. Add code to connect to a MongoDB database named `googlebooks` using the mongoose npm package.
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-// 3. Using mongoose, then create a Book schema.
+const bookSchema = new Schema(
+  {
+    title: {
+        type: String
+    },
+    authors: {
+        type: [String]
+    },
+    decription: {
+        type: String,
+    },
+    image: {
+        type: String
+    },
+    link: {
+        type: String
+    },
+  }
+);
 
-// 4. At a minimum, books should have each of the following fields:
+const Book = mongoose.model("Book", bookSchema);
 
-// * `title` - Title of the book from the Google Books API
-
-// * `authors` - The books's author(s) as returned from the Google Books API
-
-// * `description` - The book's description as returned from the Google Books API
-
-// * `image` - The Book's thumbnail image as returned from the Google Books API
-
-// * `link` - The Book's information link as returned from the Google Books API
+module.exports = Book;

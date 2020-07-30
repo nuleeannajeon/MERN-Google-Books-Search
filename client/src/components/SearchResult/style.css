@@ -4,7 +4,7 @@
     padding: 15px 20px 15px 20px;
     margin-bottom: 15px;
 }
-button {
+button, a {
     float: right;
     border-radius: 2rem;
     margin-left: 5px;

@@ -8,7 +8,7 @@ function SavedBooks(){
         <ul className="list-unstyled">
             <li className="media">
                 <div className="media-body">
-                    <button>Save</button>
+                    <button>Delete</button>
                     <button>View</button>
                     <h5 className="mt-0 mb-1">Harry Potter and the Philosopher</h5>
                     <p>Written by Authors</p>

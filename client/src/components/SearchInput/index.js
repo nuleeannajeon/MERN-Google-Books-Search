@@ -1,14 +1,14 @@
 import React from 'react';
 import './style.css';
 
-function SearchInput(){
+function SearchInput(props){
     return(
-        <div className="input-group mb-3">
-            <input type="text" className="form-control" placeholder="Insert Keyword to search books" />
+        <form className="input-group mb-3">
+            <input type="text" className="form-control" placeholder="Enter Keyword to search books" onChange={props.handleInputChange}/>
             <div className="input-group-append">
-                <button className="btn" type="button" id="button-addon2">Search</button>
+                <button className="btn" type="button" id="button-addon2" onClick={props.handleFormSubmit}>Search</button>
             </div>
-        </div>
+        </form>
     );
 }
 

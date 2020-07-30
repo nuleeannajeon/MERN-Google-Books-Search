@@ -20,6 +20,6 @@ export default {
         return axios.post('/api/books', book);
     },
     deleteBook: function(bookId){
-        return axios.delete('/api/books/', bookId);
+        return axios.delete('/api/books/' + bookId);
     }
 }

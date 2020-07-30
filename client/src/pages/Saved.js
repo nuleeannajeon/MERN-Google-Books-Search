@@ -3,7 +3,7 @@ import SavedBooks from '../components/SavedBooks'
 
 function Saved(){
     return(
-        <div class="container">
+        <div className="container">
             <SavedBooks />
         </div>
     );
